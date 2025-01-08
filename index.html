@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger website | HTML, CSS & JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <h1>Burger Website</h1>
+        <i id="hamburger-menu-icon" class="fa-solid fa-bars"></i>
+        <nav>
+            <!-- <span id="close-icon">&times;</span> -->
+            <a href="#">Home</a>
+            <a href="#">About us</a>
+            <a href="#">Contact us</a>
+            <a href="#">Learn more</a>
+            <a href="#">Products</a>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- <div class="main-img-div">
+            <img id="main-img" src="bg-img.jpg" alt="">
+            <div class="main-img-heading">
+                <h1>Burger King</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur delectus magni tempore eligendi
+                    doloremque voluptas voluptatem culpa exercitationem debitis cum? Sint magnam ratione necessitatibus
+                    asperiores, commodi debitis cumque? Placeat, minus.</p>
+                <br>
+                <button id="btn-1">find near hotel</button>
+                <button id="btn-2">browse items</button>
+
+            </div>
+        </div> -->
+        <hr>
+        <div class="burger-list">
+            <h2>Our Burger Menu</h2>
+        
+            <div class="cards">
+                <div class="item">
+                    <img src="bg-img.jpg" alt="">
+                    <h3>burger 1</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui quae consequuntur alias ipsa nisi.
+                        Est in a excepturi soluta rerum animi illo, tempore, quasi incidunt fugiat, odit sed sapiente
+                        qui?</p>
+                    <button>order now</button>
+                </div>
+
+                <div class="item">
+                    <img src="bg-img.jpg" alt="">
+                    <h3>burger 1</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui quae consequuntur alias ipsa nisi.
+                        Est in a excepturi soluta rerum animi illo, tempore, quasi incidunt fugiat, odit sed sapiente
+                        qui?</p>
+                    <button>order now</button>
+                </div>
+
+                <div class="item">
+                    <img src="bg-img.jpg" alt="">
+                    <h3>burger 1</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui quae consequuntur alias ipsa nisi.
+                        Est in a excepturi soluta rerum animi illo, tempore, quasi incidunt fugiat, odit sed sapiente
+                        qui?</p>
+                    <button>order now</button>
+                </div>
+
+                <div class="item">
+                    <img src="bg-img.jpg" alt="">
+                    <h3>burger 1</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui quae consequuntur alias ipsa nisi.
+                        Est in a excepturi soluta rerum animi illo, tempore, quasi incidunt fugiat, odit sed sapiente
+                        qui?</p>
+                    <button>order now</button>
+                </div>
+
+                <div class="item">
+                    <img src="bg-img.jpg" alt="">
+                    <h3>burger 1</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui quae consequuntur alias ipsa nisi.
+                        Est in a excepturi soluta rerum animi illo, tempore, quasi incidunt fugiat, odit sed sapiente
+                        qui?</p>
+                    <button>order now</button>
+                </div>
+
+                <div class="item">
+                    <img src="bg-img.jpg" alt="">
+                    <h3>burger 1</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui quae consequuntur alias ipsa nisi.
+                        Est in a excepturi soluta rerum animi illo, tempore, quasi incidunt fugiat, odit sed sapiente
+                        qui?</p>
+                    <button>order now</button>
+                </div>
+
+                <div class="item">
+                    <img src="bg-img.jpg" alt="">
+                    <h3>burger 1</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui quae consequuntur alias ipsa nisi.
+                        Est in a excepturi soluta rerum animi illo, tempore, quasi incidunt fugiat, odit sed sapiente
+                        qui?</p>
+                    <button>order now</button>
+                </div>
+
+                <div class="item">
+                    <img src="bg-img.jpg" alt="">
+                    <h3>burger 1</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui quae consequuntur alias ipsa nisi.
+                        Est in a excepturi soluta rerum animi illo, tempore, quasi incidunt fugiat, odit sed sapiente
+                        qui?</p>
+                    <button>order now</button>
+                </div>
+
+                <div class="item">
+                    <img src="bg-img.jpg" alt="">
+                    <h3>burger 1</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui quae consequuntur alias ipsa nisi.
+                        Est in a excepturi soluta rerum animi illo, tempore, quasi incidunt fugiat, odit sed sapiente
+                        qui?</p>
+                    <button>order now</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+    <script>
+        // Get all the items
+        const nav = document.querySelector('nav');
+        let closeIcon = document.querySelector('#close-icon');
+        let hamburger = document.querySelector('#hamburger-menu-icon');
+
+        hamburger.addEventListener('click', function() {
+            nav.classList.toggle('active');
+        })
+    </script>
+</body>
+
+</html>

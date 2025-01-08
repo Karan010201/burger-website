@@ -13,6 +13,8 @@ header{
     align-items: center;
     height: 50px;
     background-color: rgb(24, 23, 23);
+     position: sticky;
+    top: 0px;
 }
 
 h1{
